@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/4.1.0/marked.min.js"></script>
+    <link rel="stylesheet" href="./style.CSS" />
+    <title>Title</title>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div id="addDiv" class="header">
+        <h1>My To Do List</h1>
+    </div>
+    <div class="emptyDiv"></div>
+    <div class="List">
+        <input type="text" id="AddToDo">
+        <button type="submit" id="submit" onclick="addItem()">submit</button>
+
+        <ul id="toDoList">
+            <li>English Class <button class="closeBtn">x</button></li>
+            <li class="checked">Meeting <button class="closeBtn">x</button></li>
+            <li>React Learning <button class="closeBtn">x</button></li>
+            <li>University class <button class="closeBtn">x</button></li>
+        </ul>
+    </div>
+</body>
+
+</html>
